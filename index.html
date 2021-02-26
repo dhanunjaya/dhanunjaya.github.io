@@ -61,7 +61,7 @@
                     <h1 class="pt-3 link-center header">About <span style="color:#E67B4B;">Me</span></h1>
                     <div class="aboutsec">
                         <div class="d-flex flex-md-row flex-lg-row flex-sm-column flex-column justify-content-center align-items-center">
-                            <div class="col-md-5 col-sm-12 col-12 col-lg-5 ml-4">
+                            <div class="col-md-5 col-sm-12 col-12 col-lg-5">
                                 <img src="./dj.jpeg" class="aboutimg img-fluid" alt="">
                              </div>
                              <div class="col-md-5 col-sm-12 col-12 col-lg-5 bio">
@@ -81,72 +81,73 @@
             <div class="container-fluid">
                 <div class="row d-flex flex-column justify-content-center align-items-center">
                     <h1 class="pt-3 link-center header">My <span style="color:#E67B4B;">Projects</span></h1>
-                    <div class="projsec mt-4">
-                        <div class="d-flex flex-row justify-content-center align-items-center flex-wrap">
-                            <div class="card bg-light  col-md-3 ml-3 mb-3 col-sm-9 col-9">
-                                <div class="card-body">
-                                    <h5 class="card-title">AMT (Automation Monitoring Tool)</h5>
-                                    <p class="card-text">Processing the events from different data sources and updating the upstream systems.</p>
-                                    <!-- <a href="#" class="btn ">Go somewhere</a> -->
-                                </div>
+                </div>
+                <div class="projsec mt-4">
+                    <div class="d-flex flex-column justify-content-center align-items-center flex-wrap mr-3">
+                        <div class="card bg-light  col-md-9 ml-3 mb-3 col-sm-12 col-12">
+                            <div class="card-body">
+                                <h5 class="card-title">AMT (Automation Monitoring Tool)</h5>
+                                <p class="card-text">Processing the events from different data sources and updating the upstream systems.</p>
+                                <!-- <a href="#" class="btn ">Go somewhere</a> -->
                             </div>
-                            <div class="card bg-light   col-md-3 ml-3 mb-3 col-sm-9 col-9">
-                                <div class="card-body">
-                                    <h5 class="card-title">VFd (Virtual Function Daemon) Service</h5>
-                                    <p class="card-text">VFd (SR-IOV Virtual Function driver) is a daemon which manages the configuration of virtual and physical functions (VFs and PFs) which are exposed by an SR-IOV capable network interface card (NIC) using the DPDK PMD interface. Configuration and management are accomplished via DPDK and allows a very lightweight and simple overlay to be constructed for cloud environments.</p>
-                                    <!-- <a href="#" class="btn ">Go somewhere</a> -->
-                                </div>
+                        </div>
+                        <div class="card bg-light   col-md-9 ml-3 mb-3 col-sm-12 col-12">
+                            <div class="card-body">
+                                <h5 class="card-title">VFd (Virtual Function Daemon) Service</h5>
+                                <p class="card-text">VFd (SR-IOV Virtual Function driver) is a daemon which manages the configuration of virtual and physical functions (VFs and PFs) which are exposed by an SR-IOV capable network interface card (NIC) using the DPDK PMD interface. Configuration and management are accomplished via DPDK and allows a very lightweight and simple overlay to be constructed for cloud environments.</p>
+                                <!-- <a href="#" class="btn ">Go somewhere</a> -->
                             </div>
-                            <div class="card bg-light   col-md-3 ml-3 mb-3 col-sm-9 col-9">
-                                <div class="card-body">
-                                    <h5 class="card-title">QoSLite Service</h5>
-                                    <p class="card-text">Tegu is a reservation manager which provides the ability to create and manage, quality of service bandwidth reservations between network endpoints, flow steering reservations, wide area network switching, port mirroring reservations</p>
-                                    <!-- <a href="#" class="btn ">Go somewhere</a> -->
-                                </div>
+                        </div>
+                        <div class="card bg-light   col-md-9 ml-3 mb-3 col-sm-12 col-12">
+                            <div class="card-body">
+                                <h5 class="card-title">QoSLite Service</h5>
+                                <p class="card-text">Tegu is a reservation manager which provides the ability to create and manage, quality of service bandwidth reservations between network endpoints, flow steering reservations, wide area network switching, port mirroring reservations</p>
+                                <!-- <a href="#" class="btn ">Go somewhere</a> -->
                             </div>
-                            <div class="card bg-light col-md-3 ml-3 mb-3 col-sm-9 col-9">
-                                <div class="card-body">
-                                    <h5 class="card-title">AT&T Integrated Cloud + Network Virtualization – AIC Gamma</h5>
-                                    <p class="card-text">AIC is the effort to build a common hardware and software platform with a goal to reduce the overall cost for AT&T and be able to support different Cloud services. AIC Gamma adds the Network Virtualization Platform with support for virtualized Customer Edge (vCE) and virtualized Provider Edge (vPE) routers on commodity x86 hardware. CE and PE routers have traditionally been implemented on physical router platforms from vendors such as Juniper and Cisco. These routers apply various controls to traffic as it enters the AT&T network before passing the traffic to the core of the network. Packet forwarding and data plane throughput are major concerns, but NVP and now AIC pursue the shift towards decoupling control plane from data plane and shifting functions from dedicated hardware into software deployed elastically onto a general purpose (typically x86) computing platform. AT&T Cloud provides third party developers with servers, storage, networking, industry standard APIs, and the tools to build fault-tolerant cloud applications with low latency and high scalability. The platform allows software developers to build applications quickly and bring them online without worrying about capacity planning, scaling, security, or performance.</p>
-                                    <!-- <a href="#" class="btn ">Go somewhere</a> -->
-                                </div>
+                        </div>
+                        <div class="card bg-light col-md-9 ml-3 mb-3 col-sm-12 col-12">
+                            <div class="card-body">
+                                <h5 class="card-title">AT&T Integrated Cloud + Network Virtualization – AIC Gamma</h5>
+                                <p class="card-text">AIC is the effort to build a common hardware and software platform with a goal to reduce the overall cost for AT&T and be able to support different Cloud services. AIC Gamma adds the Network Virtualization Platform with support for virtualized Customer Edge (vCE) and virtualized Provider Edge (vPE) routers on commodity x86 hardware. CE and PE routers have traditionally been implemented on physical router platforms from vendors such as Juniper and Cisco. These routers apply various controls to traffic as it enters the AT&T network before passing the traffic to the core of the network. Packet forwarding and data plane throughput are major concerns, but NVP and now AIC pursue the shift towards decoupling control plane from data plane and shifting functions from dedicated hardware into software deployed elastically onto a general purpose (typically x86) computing platform. AT&T Cloud provides third party developers with servers, storage, networking, industry standard APIs, and the tools to build fault-tolerant cloud applications with low latency and high scalability. The platform allows software developers to build applications quickly and bring them online without worrying about capacity planning, scaling, security, or performance.</p>
+                                <!-- <a href="#" class="btn ">Go somewhere</a> -->
                             </div>
-                            <div class="card bg-light   col-md-3 ml-3 mb-3 col-sm-9 col-9">
-                                <div class="card-body">
-                                    <h5 class="card-title">AT&T Integrated Cloud – AIC </h5>
-                                    <p class="card-text">AIC is the effort to build a common hardware and software platform with a goal to reduce the overall cost for AT&T and be able to support different Cloud services. AIC exists in a variety of physical locations such as Enterprise Datacenters (EDC), Internet Datacenters (IDC), etc., but the underlying technologies, processes, general capabilities and operation of the Common Cloud transcend physical location. AT&T Cloud provides third party developers with servers, storage, networking, industry standard APIs, and the tools to build fault-tolerant cloud applications with low latency and high scalability. The platform allows software developers to build applications quickly and bring them online without worrying about capacity planning, scaling, security, or performance.</p>
-                                    <!-- <a href="#" class="btn ">Go somewhere</a> -->
-                                </div>
+                        </div>
+                        <div class="card bg-light   col-md-9 ml-3 mb-3 col-sm-12 col-12">
+                            <div class="card-body">
+                                <h5 class="card-title">AT&T Integrated Cloud – AIC </h5>
+                                <p class="card-text">AIC is the effort to build a common hardware and software platform with a goal to reduce the overall cost for AT&T and be able to support different Cloud services. AIC exists in a variety of physical locations such as Enterprise Datacenters (EDC), Internet Datacenters (IDC), etc., but the underlying technologies, processes, general capabilities and operation of the Common Cloud transcend physical location. AT&T Cloud provides third party developers with servers, storage, networking, industry standard APIs, and the tools to build fault-tolerant cloud applications with low latency and high scalability. The platform allows software developers to build applications quickly and bring them online without worrying about capacity planning, scaling, security, or performance.</p>
+                                <!-- <a href="#" class="btn ">Go somewhere</a> -->
                             </div>
-                            <div class="card bg-light  col-md-3 ml-3 mb-3 col-sm-9 col-9">
-                                <div class="card-body">
-                                    <h5 class="card-title">Service Orchestrator</h5>
-                                    <p class="card-text">AT&T Synaptic Compute as a Service with VMware vCloud Datacenter Service offers pay-as-you-go/committed cloud computing for companies and developers allowing you to quickly obtain access to provision, run, manage, and de-provision virtual machines as needed.</p>
-                                    <!-- <a href="#" class="btn ">Go somewhere</a> -->
-                                </div>
+                        </div>
+                        <div class="card bg-light  col-md-9 ml-3 mb-3 col-sm-12 col-12">
+                            <div class="card-body">
+                                <h5 class="card-title">Service Orchestrator</h5>
+                                <p class="card-text">AT&T Synaptic Compute as a Service with VMware vCloud Datacenter Service offers pay-as-you-go/committed cloud computing for companies and developers allowing you to quickly obtain access to provision, run, manage, and de-provision virtual machines as needed.</p>
+                                <!-- <a href="#" class="btn ">Go somewhere</a> -->
                             </div>
-                          </div>
-                       
-                    </div>
+                        </div>
+                        
+                      </div>
+                   
                 </div>
             </div>
         </section>
         <section id="skills" class="bgsecondary">
             <div class="container-fluid">
-                <div class="row d-flex flex-column justify-content-center align-items-center">
-                    <h1 class="pt-3 link-center header mb-3">My <span style="color:#E67B4B;">Skills</span></h1>
-                    <div class="d-flex flex-md-row mr-4 flex-sm-column flex-column">
-                        <div class="col-sm-12 col-12 col-md-4 m-4 col-lg-4">
+                <div class="row d-flex flex-column justify-content-between align-items-center">
+                    <h1 class="pt-3 link-center header mb-3 text-center">My <span style="color:#E67B4B;">Skills</span></h1>
+                    <div class="d-flex flex-md-row flex-sm-column flex-column mt-4">
+                        <div class="col-sm-12 col-12 col-md-4 col-lg-4 mr-4">
                             <h5 class="text-md-left text-sm-center text-center">Domain</h5>
                             <p class="text-md-left text-sm-center text-center">
                                 Operating Systems<br>
                                 Networking<br>
                                 Webdevelopment<br>
                                 Database Management
-
+    
                             </p>
                         </div>
-                        <div class="col-sm-12 col-12 col-md-4 m-4 col-lg-4">
+                        <div class="col-sm-12 col-12 col-md-4 col-lg-4 mr-4">
                             <h5 class="text-md-left text-sm-center text-center">Languages</h5>
                             <p class="text-md-left text-sm-center text-center">
                                 C programming<br>
@@ -155,20 +156,21 @@
                                 Html & css <br>
                                 Javascript<br>
                                 Sql
-
+    
                             </p>
                         </div>
-                        <div class="col-sm-12 col-12 col-md-4 m-4 col-lg-4">
+                        <div class="col-sm-12 col-12 col-md-4 col-lg-4">
                             <h5 class="text-md-left text-sm-center text-center">Methodology</h5>
                             <p class="text-md-left text-sm-center text-center">
                                Scrum<br>
                                Agile
-
+    
                             </p>
                         </div>
                        
-                    </div>
                 </div>
+                
+                
             </div>
         </section>
         <section id="contact" class="bgprimary p-3">
@@ -177,7 +179,7 @@
                 <div class="row d-flex flex-column justify-content-center align-items-center mb-3">
                     <h1 class="pt-3 link-center header mb-3">Contact <span style="color:#E67B4B;">Me</span></h1>
                     <div class="d-flex flex-md-row flex-sm-column flex-column mt-4 col-12">
-                        <div class="col-sm-12 col-12 col-md-4 box mr-3">
+                        <div class="col-sm-12 col-12 col-md-4 box mr-2">
                             <i class="fas fa-hotel fa-2x pb-2" style="color:#E67B4B;"></i>
                             <h4>Location</h4>
                             <p>Hyderabad, Telangana, India</p>
